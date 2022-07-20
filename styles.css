@@ -187,6 +187,12 @@ nav a:hover{
     justify-content: space-evenly;
 }
 
+/* all groups css */
+.match ul{
+    text-align: start;
+    font-size: larger;
+}
+
 /* view all */
 
 .view{
@@ -231,6 +237,8 @@ footer hr{
 .footer-icon{
     width: 30px;
 }
+
+
 
 /* responsiveness tablet */
 
