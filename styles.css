@@ -34,6 +34,7 @@ footer{
     color: white;
     text-align: center;
     margin-top: 200px;
+    width: 100%;
 }
 
 /* particular styles */
@@ -72,6 +73,9 @@ header a:hover{
 .watch:hover .ball{
     animation: football 1s ease-out 0.2s 1 forwards;
 }
+
+/* animation */
+
 @keyframes football {
     0%{
         transform: translate(0px,0px);
@@ -311,6 +315,9 @@ footer hr{
         color: white;
     }
 }
+
+/* responsiveness mobile  */
+
 @media screen and (max-width: 375px){
     header{
         flex-direction: column;
@@ -321,7 +328,7 @@ footer hr{
         margin: 20px;
     }
     .headertext{
-        margin-left: 50px;
+        margin-left: 58px;
         
     }
     .watch{
