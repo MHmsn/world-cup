@@ -69,7 +69,6 @@ header a{
 header a:hover{
     background-color: rgba(255, 0, 0, 0.404);
 }
-
 .watch:hover .ball{
     animation: football 1s ease-out 0.2s 1 forwards;
 }
@@ -130,6 +129,7 @@ nav a:hover{
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 0.5fr);
+    width: 80%;
     column-gap: 3%;
     row-gap: 3%;
 }
@@ -184,8 +184,7 @@ nav a:hover{
 }
 .flags{
     display: flex;
-    justify-content: space-between;
-    width: 252px;
+    justify-content: space-evenly;
 }
 
 /* view all */
@@ -225,9 +224,12 @@ footer hr{
 }
 .fa-brands{
     font-size: 30px;
-    width: 200px;
+    margin: 0px 200px;
     margin-bottom: 50px;
     color: white;
+}
+.footer-icon{
+    width: 30px;
 }
 
 /* responsiveness tablet */
@@ -238,7 +240,9 @@ footer hr{
         padding: 40px 50px;
         margin: 30px;
     }
-    
+    .headertext{
+        margin-right: 10px;
+    }
     header h1{
         font-size: 40px;
     }
@@ -310,7 +314,8 @@ footer hr{
     }
     .fa-brands{
         font-size: 30px;
-        width: 100px;
+        margin-left: 0px;
+        margin-right: 30px;
         margin-bottom: 50px;
         color: white;
     }
@@ -322,16 +327,18 @@ footer hr{
     header{
         flex-direction: column;
         text-align: center;
-        width: 80%;
+        width: 75%;
         padding: 25px;
         padding-right: 15px;
         margin: 20px;
     }
     .headertext{
-        margin-left: 58px;
+        margin-left: 10px;
+        margin-right: 10px;
         
     }
     .watch{
+        margin-left: 50px;
         width: 100px;
         display: flex;
         flex-direction: column;
@@ -358,7 +365,7 @@ footer hr{
         width: 233px;
         height: 245px;
         margin-left: 20px;
-        margin-top: 0px;
+        margin-top: -70px;
     }
     main{
         display: flex;
@@ -409,7 +416,7 @@ footer hr{
     }
     .fa-brands{
         font-size: 20px;
-        width: 50px;
+        margin: 0px 30px;
         margin-bottom: 50px;
         color: white;
     }
